@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Formular</h1>
+    <form action="gesendet.html" method="get">
+        <label for="name">Vorname:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="surname">Nachname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for=dob> Geburtsdatum:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="workshop">Workshop:</label>
+        <select id="workshop" name="workshop">
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+            <option value="php">PHP</option>
+        </select><br><br>
+
+        <label for="teilnahme">Teilnahme:</label>
+        <input type="checkbox" id="teilnahme" name="Online" value="Online">
+        <input type="checkbox" id="teilnahme" name="Präsenz" value="Präsenz"><br><br>
+
+         <label for="interessen">Interessen:</label>
+<br>
+
+        <label for="Webentwicklung">Webentwicklung</label>
+        <input type="checkbox" id="Webentwicklung" name="Webentwicklung" value="Webentwicklung">
+<label for="Datenbanken">Datenbanken</label>
+<input type="checkbox" id="Datenbanken" name="Datenbanken" value="Datenbanken">
+        <input type="checkbox" id="interessen" name="UX" value="UX">
+        <input type="checkbox" id="interessen" name="Programmierung" value="Programmierung"><br><br>
+
+        <input type="submit" value="Absenden">
+    </form>
+
+</body>
+</html>

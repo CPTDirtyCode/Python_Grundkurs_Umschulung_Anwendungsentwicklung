@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+
+tbody {
+    background-color: black;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    color: white;
+
+}
+
+
